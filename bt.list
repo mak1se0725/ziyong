@@ -10,6 +10,7 @@ PROCESS-NAME,WebTorrent.exe
 PROCESS-NAME,WebTorrent Helper.exe
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,qBittorrent-Enhanced-Editio.exe
+PROCESS-PATH.D:\1\我的世界\Radmin_VPN_1.4.4642.1.exe
 # bt
 DOMAIN-SUFFIX,smtp
 DOMAIN-KEYWORD,aria2
