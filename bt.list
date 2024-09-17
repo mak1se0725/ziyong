@@ -10,7 +10,7 @@ PROCESS-NAME,WebTorrent.exe
 PROCESS-NAME,WebTorrent Helper.exe
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,qBittorrent-Enhanced-Editio.exe
-PROCESS-NAME,RvRvpnGui.exe
+PROCESS-NAME,RvControlSvc.exe
 # bt
 DOMAIN-SUFFIX,smtp
 DOMAIN-KEYWORD,aria2
