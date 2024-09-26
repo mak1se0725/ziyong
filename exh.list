@@ -1,4 +1,4 @@
 DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,ehgt.org
-- DOMAIN-REGEX,^hath.*network,PROXY
+DOMAIN-REGEX,^hath.*network
