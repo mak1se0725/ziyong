@@ -179,7 +179,7 @@ rules:
   - RULE-SET,蓝奏云,🎯 全球直连
   - RULE-SET,cn_ip,🎯 全球直连,no-resolve
   - RULE-SET,广告拦截,🎯 全球直连
-  - MATCH,负载均衡
+  - MATCH,负载均衡 
   
 rule-anchor:
   ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
