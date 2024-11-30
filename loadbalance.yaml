@@ -140,13 +140,7 @@ proxy-groups:
       - "DIRECT"
       - "🚀 节点选择"
       
-  - name: "🛑 广告拦截"
-    type: select
-    proxies:
-      - "REJECT"
-      - "DIRECT"
-      - "🚀 节点选择"   
- 
+
  
 
 rules:
@@ -184,7 +178,7 @@ rules:
   - RULE-SET,cloudflare,🎯 全球直连
   - RULE-SET,蓝奏云,🎯 全球直连
   - RULE-SET,cn_ip,🎯 全球直连,no-resolve
-  - RULE-SET,广告拦截,🛑 广告拦截
+  - RULE-SET,广告拦截,🎯 全球直连
   - MATCH,🐟 漏网之鱼
   
 rule-anchor:
