@@ -139,6 +139,13 @@ proxy-groups:
     proxies:
       - "DIRECT"
       - "🚀 节点选择"
+      
+  - name: "🛑 广告拦截"
+    type: select
+    proxies:
+      - "REJECT"
+      - "DIRECT"
+      - "🚀 节点选择"   
  
  
 
