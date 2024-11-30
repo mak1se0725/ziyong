@@ -151,27 +151,30 @@ proxy-groups:
 
 rules:
  
-  - RULE-SET,telegram_ip,🚀 节点选择
-  - RULE-SET,Twitter,🚀 节点选择
+  - RULE-SET,telegram_ip,REJECT
+  - RULE-SET,Twitter,REJECT
+  - RULE-SET,steam,REJECT
+  - RULE-SET,epic,REJECT
+  - RULE-SET,游戏下载,REJECT
+  - RULE-SET,Discord,REJECT
+  
+  - RULE-SET,telegram_domain,REJECT
   - RULE-SET,github_domain,🚀 节点选择
   - RULE-SET,youtube_domain,🚀 节点选择
   - RULE-SET,google_domain,🚀 节点选择
-  - RULE-SET,telegram_domain,🚀 节点选择
-  - RULE-SET,telegram_domain,🚀 节点选择
-  - RULE-SET,cn_domain,🚀 节点选择
+ 
+  - RULE-SET,cn_domain,🎯 全球直连
   - RULE-SET,cloudflare,🎯 全球直连
   - RULE-SET,直连程序,🎯 全球直连
   - RULE-SET,代理程序,🚀 节点选择
   - RULE-SET,直连域名,🎯 全球直连
   - RULE-SET,pixiv,🚀 节点选择
   - RULE-SET,Spotify,🚀 节点选择
-  - RULE-SET,Discord,🚀 节点选择
+  
   - RULE-SET,ai,🚀 节点选择
   - RULE-SET,巴哈姆特,🚀 节点选择
   - RULE-SET,exh,🚀 节点选择
-  - RULE-SET,steam,🚀 节点选择
-  - RULE-SET,epic,🚀 节点选择
-  - RULE-SET,游戏下载,🚀 节点选择
+ 
   - RULE-SET,google_ip,🚀 节点选择,no-resolve
   - RULE-SET,proxylite,🚀 节点选择
   - RULE-SET,google_ip,🚀 节点选择,no-resolve
