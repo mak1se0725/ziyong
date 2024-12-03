@@ -124,7 +124,7 @@ proxy-groups:
     type: select
     proxies:
       - "负载均衡"
-      -"新加坡"
+      - "新加坡"
       - "DIRECT"
     
 
