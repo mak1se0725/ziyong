@@ -141,7 +141,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     strategy: round-robin
-    filter: ^(?=.*sg)
+    filter: (?i)(?=.*sg)
     use:
     - tc 
 
