@@ -124,7 +124,9 @@ proxy-groups:
     type: select
     proxies:
       - "负载均衡"
+      -"新加坡"
       - "DIRECT"
+    
 
   - name: 负载均衡
     type: load-balance
@@ -133,6 +135,15 @@ proxy-groups:
     strategy: round-robin
     use:
     - tc
+    
+  - name: 新加坡
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+    strategy: round-robin
+     filter: (?=.*(sg))
+    use:
+    - tc 
 
   - name: "🎯 全球直连"
     type: select
