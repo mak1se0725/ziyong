@@ -123,27 +123,48 @@ proxy-groups:
   - name: "🚀 节点选择"
     type: select
     proxies:
-      - "负载均衡"
       - "新加坡"
+      - "日本"
+      - "台湾"
+      - "香港"
       - "DIRECT"
     
 
-  - name: 负载均衡
-    type: load-balance
-    url: http://www.gstatic.com/generate_204
-    interval: '300'
-    strategy: round-robin
-    use:
-    - tc
+  
+  
     
   - name: 新加坡
-    type: load-balance
+    type: select
     url: http://www.gstatic.com/generate_204
     interval: '300'
-    strategy: round-robin
     filter: (?i)(?=.*sg)
     use:
     - tc 
+    
+ - name: 香港
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+    filter: (?i)(?=.*hk)
+    use:
+    - tc
+    
+ - name: 日本
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+    filter: (?i)(?=.*jp)
+    use:
+    - tc   
+    
+- name: 台湾
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+    filter: (?i)(?=.*tw)
+    use:
+    - tc   
+    
 
   - name: "🎯 全球直连"
     type: select
