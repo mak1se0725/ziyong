@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX,club.gamersky.com
+MuMuVMMHeadless.exeDOMAIN-SUFFIX,club.gamersky.com
 DOMAIN-SUFFIX,amoebi.com
 DOMAIN-SUFFIX,max-c.com
 DOMAIN-SUFFIX,imgheybox.max-c.com
@@ -15,3 +15,4 @@ DOMAIN-SUFFIX,cnlogs.umeng.com
 DOMAIN-SUFFIX,resolve.umeng.com
 PROCESS-NAME,MuMuPlayer.exe
 PROCESS-NAME,MuMuPlayerService.exe
+PROCESS-NAME,MuMuVMMHeadless.exe
