@@ -13,3 +13,5 @@ DOMAIN-SUFFIX,a9vg.com
 DOMAIN-SUFFIX,ccs.umeng.com
 DOMAIN-SUFFIX,cnlogs.umeng.com
 DOMAIN-SUFFIX,resolve.umeng.com
+PROCESS-NAME,MuMuPlayer.exe
+PROCESS-NAME,MuMuPlayerService.exe
