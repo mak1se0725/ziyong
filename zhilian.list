@@ -28,10 +28,6 @@ PROCESS-NAME,WebTorrent Helper.exe
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,qBittorrent-Enhanced-Editio.exe
 PROCESS-NAME,RvControlSvc.exe
-PROCESS-NAME,BlueArchiveAutoScript.exe
-PROCESS-NAME,MuMuPlayer.exe
-PROCESS-NAME,MuMuPlayerService.exe
-PROCESS-NAME,MuMuVMMHeadless.exe
 
 
 
