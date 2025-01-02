@@ -28,7 +28,7 @@ PROCESS-NAME,WebTorrent Helper.exe
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,qBittorrent-Enhanced-Editio.exe
 PROCESS-NAME,RvControlSvc.exe
-
+PROCESS-NAME,BlueArchiveAutoScript.exe
 
 
 # BT
