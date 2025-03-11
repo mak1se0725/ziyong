@@ -3,6 +3,10 @@ DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,ehgt.org
 DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,hentaiverse
+IP-CIDR,178.175.128.0/21
+
+
 
 #name nh
 DOMAIN-SUFFIX,nhentai.net
