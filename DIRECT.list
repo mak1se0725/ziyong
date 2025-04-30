@@ -1,51 +1,17 @@
-# DOMAIN
+#domain
 
-DOMAIN-SUFFIX,amoebi.com
-DOMAIN-SUFFIX,max-c.com
-DOMAIN-SUFFIX,imgheybox.max-c.com
-DOMAIN-SUFFIX,ghxi.com
-DOMAIN-SUFFIX,fl1x.mashiro.asia
-DOMAIN-SUFFIX,123pan.com
-DOMAIN-SUFFIX,123957.com
-DOMAIN-SUFFIX,123952.com
-DOMAIN-SUFFIX,123865.com
-DOMAIN-SUFFIX,flix.center
-DOMAIN-SUFFIX,a9vg.com
-DOMAIN-SUFFIX,ccs.umeng.com
-DOMAIN-SUFFIX,cnlogs.umeng.com
-DOMAIN-SUFFIX,resolve.umeng.com
 
-# PROCESS
-PROCESS-NAME,aria2c.exe
-PROCESS-NAME,fdm.exe
-PROCESS-NAME,Folx.exe
-PROCESS-NAME,NetTransport.exe
-PROCESS-NAME,Thunder.exe
-PROCESS-NAME,Transmission.exe
-PROCESS-NAME,uTorrent.exe
-PROCESS-NAME,WebTorrent.exe
-PROCESS-NAME,WebTorrent Helper.exe
+
+
+
+
+#windows
+
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,qBittorrent-Enhanced-Editio.exe
 PROCESS-NAME,RvControlSvc.exe
 PROCESS-NAME,BlueArchiveAutoScript.exe
 
 
-# BT
-DOMAIN-SUFFIX,smtp
-DOMAIN-KEYWORD,aria2
-URL-REGEX,(Subject|HELO|SMTP)
-URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
-URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
-# XunLei
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
-PROCESS-NAME,DownloadService.exe
-# 360
-URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
-# Tencent Weiyun
-PROCESS-NAME,Weiyun.exe
-#Baidu disk
-PROCESS-NAME,baidunetdisk.exe
-# Xbox
-URL-REGEX,assets\d+\.xboxlive\.(com|cn)
+#Android
+
