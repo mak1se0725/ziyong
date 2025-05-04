@@ -1,8 +1,6 @@
-#domain
+#domain/ip-cidr
 DOMAIN-SUFFIX,paste.sensio.no
-#DOMAIN-SUFFIX,api.gradio.app
-#DOMAIN-SUFFIX,huggingface.co
-
+IP-CIDR,127.0.0.0/8
 
 
 #windows
