@@ -1,5 +1,4 @@
 #domain/ip-cidr
-DOMAIN-SUFFIX,paste.sensio.no
 IP-CIDR,127.0.0.0/8
 
 
