@@ -441,4 +441,20 @@ async function operator(proxies = [], targetPlatform, context) {
                 }
               })
               .finally(() => {
-                running-
+                running--
+                executeNextTask()
+              })
+          }
+
+          if (running === 0) {
+            return resolve(result ? results : undefined)
+          }
+        }
+
+        await executeNextTask()
+      } catch (e) {
+        reject(e)
+      }
+    })
+  }
+}-
