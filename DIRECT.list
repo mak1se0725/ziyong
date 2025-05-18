@@ -9,7 +9,7 @@ PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,qBittorrent-Enhanced-Editio.exe
 PROCESS-NAME,RvControlSvc.exe
 PROCESS-NAME,BlueArchiveAutoScript.exe
-
+PROCESS-NAME,kazumi.exe
 
 #Android
 PROCESS-NAME,com.predidit.kazumi
