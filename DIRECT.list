@@ -10,6 +10,7 @@ PROCESS-NAME,qBittorrent-Enhanced-Editio.exe
 PROCESS-NAME,RvControlSvc.exe
 PROCESS-NAME,BlueArchiveAutoScript.exe
 PROCESS-NAME,kazumi.exe
+PROCESS-NAME,SakuraFrpService.exe
 
 #Android
 PROCESS-NAME,com.predidit.kazumi
