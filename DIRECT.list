@@ -11,6 +11,7 @@ PROCESS-NAME,RvControlSvc.exe
 PROCESS-NAME,BlueArchiveAutoScript.exe
 PROCESS-NAME,kazumi.exe
 PROCESS-NAME,SakuraFrpService.exe
+PROCESS-NAME,frpc.exe
 
 #Android
 PROCESS-NAME,com.predidit.kazumi
