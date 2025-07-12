@@ -12,6 +12,7 @@ PROCESS-NAME,BlueArchiveAutoScript.exe
 #PROCESS-NAME,kazumi.exe
 PROCESS-NAME,SakuraFrpService.exe
 PROCESS-NAME,frpc.exe
+PROCESS-NAME,astral.exe
 
 #Android
 #PROCESS-NAME,com.predidit.kazumi
