@@ -2,7 +2,7 @@
 IP-CIDR,127.0.0.0/8
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,www.msftconnecttest.com
-
+DOMAIN-KEYWORD,639c9d90ad2614d1c7cffb700db8c9e1
 #windows
 
 PROCESS-NAME,qbittorrent.exe
