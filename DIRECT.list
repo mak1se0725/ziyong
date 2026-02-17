@@ -1,5 +1,5 @@
-#domain/ip-cidr
-IP-CIDR,127.0.0.0/8
+#domain
+#IP-CIDR,127.0.0.0/8
 #DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,www.msftconnecttest.com
 #windows
@@ -7,10 +7,10 @@ DOMAIN-SUFFIX,www.msftconnecttest.com
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,qBittorrent-Enhanced-Editio.exe
 PROCESS-NAME,RvControlSvc.exe
-PROCESS-NAME,BlueArchiveAutoScript.exe
+#PROCESS-NAME,BlueArchiveAutoScript.exe
 #PROCESS-NAME,kazumi.exe
 PROCESS-NAME,SakuraFrpService.exe
-PROCESS-NAME,frpc.exe
+#PROCESS-NAME,frpc.exe
 #PROCESS-NAME,astral.exe
 
 #Android
