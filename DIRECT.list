@@ -1,7 +1,6 @@
 #domain
-#IP-CIDR,127.0.0.0/8
-#DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,www.msftconnecttest.com
+DOMAIN-SUFFIX,icmp9.com
 #windows
 
 PROCESS-NAME,qbittorrent.exe
