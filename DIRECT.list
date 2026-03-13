@@ -1,6 +1,5 @@
 #domain
 DOMAIN-SUFFIX,www.msftconnecttest.com
-DOMAIN-SUFFIX,icmp9.com
 #windows
 
 PROCESS-NAME,qbittorrent.exe
