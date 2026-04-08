@@ -1,7 +1,7 @@
 #domain
 DOMAIN-SUFFIX,www.msftconnecttest.com
 #windows
-
+DOAMIN-SUFFIX,www.mjttc.cc
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,qBittorrent-Enhanced-Editio.exe
 PROCESS-NAME,RvControlSvc.exe
