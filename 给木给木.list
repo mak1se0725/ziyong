@@ -3,6 +3,6 @@ PROCESS-NAME,com.bandainamcoent.idolmaster_gakuen
 PROCESS-NAME,com.nexon.bluearchive
 DOMAIN-KEYWORD,bluearchive
 DOMAIN-KEYWORD,nexon
-DOMAIN-KEYWORD,game-gakuen-idolmaster
+DOMAIN-SUFFIX,game-gakuen-idolmaster
 PROCESS-NAME,com.sega.pjsekai
 DOMAIN-KEYWORD,bandainamcoid
