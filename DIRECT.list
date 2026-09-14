@@ -3,12 +3,4 @@ DOMAIN-SUFFIX,www.msftconnecttest.com
 DOMAIN-SUFFIX,www.mjttc.cc
 #windows
 PROCESS-NAME,RvControlSvc.exe
-#PROCESS-NAME,BlueArchiveAutoScript.exe
-#PROCESS-NAME,kazumi.exe
 PROCESS-NAME,SakuraFrpService.exe
-#PROCESS-NAME,frpc.exe
-#PROCESS-NAME,astral.exe
-
-#Android
-#PROCESS-NAME,com.predidit.kazumi
-AND,((IN-TYPE,SOCKS),(PROCESS-NAME,sub_store_node))
