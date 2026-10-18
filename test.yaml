@@ -1,0 +1,83 @@
+port: 7890
+socks-port: 7891
+mixed-port: 7892
+allow-lan: false
+bind-address: '*'
+mode: rule
+log-level: info
+ipv6: true
+find-process-mode: strict
+external-controller: '127.0.0.1:9090'
+profile:
+  store-selected: true
+  store-fake-ip: true
+unified-delay: true
+tcp-concurrent: true
+ntp:
+  enable: true
+  write-to-system: false
+  server: ntp.aliyun.com
+  port: 123
+  interval: 30
+dns:
+  enable: true
+  respect-rules: true
+  use-system-hosts: true
+  prefer-h3: false
+  listen: '0.0.0.0:1053'
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  fake-ip-filter:
+    - +.lan
+    - +.local
+    - localhost.ptlogin2.qq.com
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+  nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 'https://1.1.1.1/dns-query'
+    - 'https://dns.quad9.net/dns-query'
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  proxy-server-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - 'https://1.0.0.1/dns-query'
+    - 'https://9.9.9.10/dns-query'
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  strict-route: false
+  dns-hijack:
+    - 'any:53'
+  endpoint-independent-nat: true
+proxies:
+   - name:  jp-jtti
+    server: 177.3.90.139
+    port: 61213
+    type: vless
+    tls: true
+    udp: true
+    uuid: 6bec9ee6-e18c-4897-ba89-f2f83087bb82
+    flow: xtls-rprx-vision
+    reality-opts: {public-key: k1B1qucW2iylnaw-7stq7CDXyweGRIO8KA8UyaOOoUM, short-id: "028bb53abf21b1ca" }
+    servername: deb.ios.rent
+    client-fingerprint: chrome
+proxy-groups:
+  - {"name":"节点选择","type":"select","proxies":jp-jtti}
+rules:
+  - GEOIP,PRIVATE,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT
+  - MATCH,节点选择
