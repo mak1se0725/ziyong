@@ -76,7 +76,7 @@ proxies:
     servername: deb.ios.rent
     client-fingerprint: chrome
 proxy-groups:
-  - name: 国外代理
+  - name: 节点选择
     type: select
     include-all: true
     exclude-type: "dns"
