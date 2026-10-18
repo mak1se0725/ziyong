@@ -1,0 +1,12 @@
+proxies:
+   - name:  jp-jtti
+    server: 177.3.90.139
+    port: 61213
+    type: vless
+    tls: true
+    udp: true
+    uuid: 6bec9ee6-e18c-4897-ba89-f2f83087bb82
+    flow: xtls-rprx-vision
+    reality-opts: {public-key: k1B1qucW2iylnaw-7stq7CDXyweGRIO8KA8UyaOOoUM, short-id: "028bb53abf21b1ca" }
+    servername: deb.ios.rent
+    client-fingerprint: chrome
