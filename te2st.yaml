@@ -76,7 +76,10 @@ proxies:
     servername: deb.ios.rent
     client-fingerprint: chrome
 proxy-groups:
-  - {"name":"节点选择","type":"select","proxies":jp-jtti}
+  - name: 国外代理
+    type: select
+    include-all: true
+    exclude-type: "dns"
 rules:
   - GEOIP,PRIVATE,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
