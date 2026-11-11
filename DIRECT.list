@@ -1,6 +1,7 @@
 #domain
 DOMAIN-SUFFIX,www.msftconnecttest.com
 DOMAIN-SUFFIX,www.mjttc.cc
+DOMAIN-SUFFIX,yusen.cyou
 #windows
 PROCESS-NAME,RvControlSvc.exe
 PROCESS-NAME,SakuraFrpService.exe
